@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg"
 import viteLogo from "/vite.svg"
 import "./App.css"
 import ButtonComponent from "./components/ButtonComponent"
+import ImageComponent from "./components/ImageComponent"
 
 const bottone = "button"
 
@@ -22,6 +23,13 @@ function App() {
       <ButtonComponent bottone="cliccami" />
       <ButtonComponent bottone="click" />
       <ButtonComponent bottone="fatto" />
+      <ImageComponent
+        src="https://c8.alamy.com/compit/2f5gggt/piccola-rana-illustrazione-vettoriale-di-una-incantevole-piccola-rana-2f5gggt.jpg"
+        alt="Una immagine random"
+        width="100"
+        height="100"
+      />
+
       <h1>Vite + React</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
